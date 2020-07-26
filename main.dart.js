@@ -10964,7 +10964,7 @@ abC:function(a){return new U.qB(a)},
 ab6:function(a){return new U.pw(a)},
 zh:function(a,b){var t=0,s=P.a0(u.O),r,q,p,o,n,m
 var $async$zh=P.W(function(c,d){if(c===1)return P.Y(d,s)
-while(true)switch(t){case 0:p="http://ec2-3-129-96-170.us-east-2.compute.amazonaws.com/"+a
+while(true)switch(t){case 0:p="https://ec2-3-129-96-170.us-east-2.compute.amazonaws.com/"+a
 o=$.a4r
 t=3
 return P.a7(G.agt(p,C.b0.Cw(b,null),o),$async$zh)
@@ -11043,7 +11043,7 @@ Uy:function(a,b,c){var t=0,s=P.a0(u.H),r
 var $async$Uy=P.W(function(d,e){if(d===1)return P.Y(e,s)
 while(true)switch(t){case 0:r=u.X
 t=2
-return P.a7(U.zh("/api/v1/queue/user/postform",P.aU(["qid",J.bR(c),"name",a,"phone",b],r,r)),$async$Uy)
+return P.a7(U.zh("api/v1/queue/user/postform",P.aU(["qid",J.bR(c),"name",a,"phone",b],r,r)),$async$Uy)
 case 2:return P.Z(null,s)}})
 return P.a_($async$Uy,s)},
 tj:function tj(){},
