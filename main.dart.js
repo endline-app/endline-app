@@ -10964,7 +10964,7 @@ abC:function(a){return new U.qB(a)},
 ab6:function(a){return new U.pw(a)},
 zh:function(a,b){var t=0,s=P.a0(u.O),r,q,p,o,n,m
 var $async$zh=P.W(function(c,d){if(c===1)return P.Y(d,s)
-while(true)switch(t){case 0:p="https://ec2-3-129-96-170.us-east-2.compute.amazonaws.com/"+a
+while(true)switch(t){case 0:p="https://krishan.io/"+a
 o=$.a4r
 t=3
 return P.a7(G.agt(p,C.b0.Cw(b,null),o),$async$zh)
